@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+        <meta charset="utf-8">
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+      
+        <!--CSS ADC perso -->
+        <link type="text/css" rel="stylesheet" href="../css/adc.css"/>
+      
+        <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Les épisodes de l'ADC</title>
+        
+        
+        <script language="javascript">
+function InitFrame()
+{
+        if(navigator.appName == "Netscape")
+        {var hauteur = window.innerHeight;}
+        
+        else 
+        {var hauteur = document.body.offsetHeight;}
+        var frame = document.getElementById('corpiframe');
+        frame.height = hauteur - 115;
+}
+
+</script>
+        
+        
+    </head>
+    <body onload="InitFrame()" onresize="InitFrame()">
+        <!-- head -->
+        <!-- ADC -->
+        <img src="../img/logoADC2.png">
+        <br/>
+        <a class="waves-effect waves-light btn" href="../index.html"><i class="material-icons left">home</i>Accueil</a>
+        <hr/>
+        <br/>
+        <!-- fin head -->
+        
+<iframe id="corpiframe" name="corpiframe" src="http://feeds.feedburner.com/LaperoDuCaptain" allowtransparency="true" style="border:none ;" scrolling="yes" width="100%">
+    iframe non prise en charge
+</iframe>
+      
+        <!-- foot -->
+        <br/>
+        <hr/>
+      <!-- Le site du captain -->
+        <a href="http://www.captainweb.net"><img src="../img/www.png" width=32/></a>
+        <!-- bouton twitter ADC -->
+        <a href="https://twitter.com/aperoducaptain"><img src="../img/twitter-512.gif" width=32/></a>
+        
+        <!-- bouton facebook ADC -->
+        <a href="https://www.facebook.com/captainweb.net "><img src="../img/facebook.png" width=32/></a>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+    </body>
+  </html>

@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: #630505;
+}
+
+h1{
+    color: white;
+}
+
+#imgRubrique{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+iframe
+{
+    height:100%;
+    width="100%";
+}
+
+html,body
+{
+   width:100%;
+   height:100%;
+   margin:0px;
+   padding:0px;
+}
+
+p{
+    color: white;
+}
