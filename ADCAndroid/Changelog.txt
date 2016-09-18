@@ -1,0 +1,10 @@
+Appli ADC Changelog
+2016-09-17
+Creation du Projet 
+Ajout de la platforme Android (4.0+)
+Ajout du plugin cordova-plugin-media : https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-media/index.html
+Ajout de materialize-v0.97.7
+Remplacement Icones application
+Debut de developpement de la page de démarrage (index.html)
+Ajout de la rubrique Live, Devenir VIC, VIC, L'équipe, le podcast, le wiki
+Ajout d'une page sur les membres de l'équipe
